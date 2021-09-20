@@ -1,0 +1,12 @@
+.admincontrol__selector{
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.admincontrol__btn{
+    width: 200px !important;
+    margin-right: 30px !important;
+    padding: 10px 20px !important;
+}

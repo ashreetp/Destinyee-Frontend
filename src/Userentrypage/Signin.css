@@ -1,0 +1,66 @@
+.signin{ 
+    height: 565px;
+    border-radius: 10px;
+    /* background-color: rgb(134, 156, 255); */
+    /* background-image: url('https://img.freepik.com/free-photo/blurred-bokeh-background_36923-877.jpg?size=626&ext=jpg');
+    background-repeat:no-repeat;
+    background-size: cover; */
+    margin: 70px 20px 20px 20px;
+    width: 90%;
+}
+.signin__heading{
+    font-family: 'kOhO';
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+}
+.signin__form{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(133, 133, 133) !important;
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 50px 40px 50px 40px;
+    margin: 80px 60px 30px 60px;
+}
+.signin__form__username,.signin__form__password{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+.signin__form__forgotpassword{
+    font-family: 'kOhO' !important;
+    /* background-color: rgba(141, 141, 141, 0.747) !important; */
+    margin-left: 5px !important;
+}
+.signin__form__btn{
+    font-weight: 700 !important;
+    color:rgba(255, 255, 255, 0.952) !important;
+    font-family: 'kOhO';
+    background-color: rgb(255, 0, 85) !important;
+    height: 40px !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .signin{ 
+        background-image: none;
+        height: auto;
+        margin-top: -5px !important;
+        width: 90%;
+    }
+    .signin__heading{
+        margin-top: 10px;
+    }
+    .signin__form{
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgb(133, 133, 133) !important;
+        padding: 20px !important;
+        padding: 10px 10px 10px 10px;
+        margin: 40px 0px 40px 0px;
+    }
+    
+    .signin__form__btn{
+        width: 310px !important;
+    }
+}

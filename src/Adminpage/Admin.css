@@ -1,0 +1,37 @@
+.admin__signin__form{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(133, 133, 133) !important;
+    background-color: rgba(255, 255, 255, 0.377);
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 400px;
+    padding: 50px 40px 50px 40px;
+}
+.admin__signin__form__username,.admin__signin__form__password{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+
+.admin__signin__form__btn{
+    font-weight: 700 !important;
+    color:rgba(255, 255, 255, 0.952) !important;
+    font-family: 'kOhO';
+    background-color: rgb(255, 0, 85) !important;
+    height: 40px !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .admin__signin__form{
+        left: 10%;
+        top: 30%;
+        width: 60%;
+    }
+    
+    .admin__signin__form__btn{
+        width: 100% !important;
+    }
+}

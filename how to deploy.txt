@@ -1,0 +1,10 @@
+for first time:
+1. create app on firebase and its webapp
+2. installl required npm modules
+3. build the files using "npm run build"
+4. firebase init -> setup hosting and existing app -> select build instead of public
+5. firebase deploy
+
+for update: 
+1. npm run build
+2. firebase deploy

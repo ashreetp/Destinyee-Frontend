@@ -1,0 +1,8 @@
+.Carousal__main{
+    padding-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .Carousal__main{
+        padding-top: 65px;
+    }
+}

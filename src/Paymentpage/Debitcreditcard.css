@@ -1,0 +1,56 @@
+.dccard__main{
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid rgb(68, 68, 68);
+    margin: 10px 10px;
+    right: 90px !important; 
+    padding: 30px 30px;
+}
+.dccard{
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 10px !important;
+    border: 1px solid rgba(119, 119, 119, 0.582);
+}
+.dccard__cardnum{
+    width: 100% !important;
+}
+.dccard__name{
+    width: 100% !important;
+}
+.dccard__exp{
+    margin-right: 10px !important;
+}
+.dccard__cardnum,.dccard__name,.dccard__two{
+    margin-bottom: 15px !important;
+}
+.dccard__txt{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'kOhO';
+    font-size: 12px;
+    color:gray;
+}
+.dccard__btn{
+    font-weight: 700 !important;
+    color:rgba(255, 255, 255, 0.952) !important;
+    font-family: 'kOhO';
+    margin-top: 20px !important;
+    background-color: rgb(2, 240, 2) !important;
+    height: 50px !important;
+    width: 500px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .dccard__main{
+        position: relative;
+        margin-left: 160px !important;
+        margin-top: 100px !important;
+        width: 310px !important;
+    }
+    
+    .dccard__btn{
+        height: 40px !important;
+        width: 300px !important;
+    }
+}

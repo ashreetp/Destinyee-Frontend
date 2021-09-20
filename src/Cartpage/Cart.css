@@ -1,0 +1,31 @@
+.cart{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 20px;
+}
+
+.cart__noitems{
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: 'kOhO';
+    letter-spacing: 5px;
+    left: 150px;
+    top: 270px;
+    color: rgb(255, 0, 85);
+}
+
+@media only screen and (max-width: 600px) {
+    .cart{
+        display: inline;
+        margin-top: -10px !important;
+    }
+    .cart__noitems{
+        position: absolute;
+        font-size: 1.3rem;
+        font-family: 'kOhO';
+        letter-spacing: 3px;
+        left: 20px;
+        top: 450px;
+        color: rgb(255, 0, 85);
+    }
+}

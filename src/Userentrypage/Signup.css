@@ -1,0 +1,57 @@
+.signup{
+    border-radius: 10px;
+    min-height: 565px;
+    margin: -20px 20px 20px 20px;
+    width: 90%;
+}
+.signup__heading{
+    font-family: 'kOhO';
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+}
+.signup__form{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(133, 133, 133) !important;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 50px 40px 60px 40px;
+    margin: 20px 60px 30px 60px;
+}
+.signup__form__username,.signup__form__password,.signup__form__fullname,.signup__form__phonenum,.signup__form__address,.signup__form__email{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+.signup__form__btn{
+    margin-top: 10px !important;
+    font-weight: 700 !important;
+    color:rgba(255, 255, 255, 0.952) !important;
+    font-family: 'kOhO';
+    background-color: rgb(255, 0, 85) !important;
+    height: 40px !important;
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .signup{ 
+        background-image: none;
+        height: auto;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+    }
+    .signup__heading{
+        margin-top: 10px;
+    }
+    .signup__form{
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgb(133, 133, 133) !important;
+        padding: 20px !important;
+        padding: 10px 10px 10px 10px;
+        margin: 40px 0px 40px 0px;
+    }
+    
+    .signup__form__btn{
+        width: 300px !important;
+    }
+}

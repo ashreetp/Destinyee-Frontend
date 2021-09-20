@@ -1,0 +1,35 @@
+.buynow__gallary{
+    margin-top: 30px;
+    width: 100% !important;
+    height: 700px !important;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.buynow__main{
+    margin-left: 20px;
+}
+.butnow__gallary__imggal{
+    margin-left: 10px !important;
+    width: 550px !important
+}
+.buynow__mobile{
+    display: none !important;
+}
+@media only screen and (max-width: 600px) {
+    .buynow__gallary{
+        display: inline;
+        width: 100% !important;
+        height: 100px !important;
+    }
+    .buynow__main{
+        padding-top: 65px;
+        margin-left: 0px;
+    }
+    .butnow__gallary__imggal{
+        display: none !important;
+    }
+    .buynow__mobile{
+        display: block !important;
+    }
+}

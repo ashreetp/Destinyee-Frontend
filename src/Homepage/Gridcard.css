@@ -1,0 +1,35 @@
+.Gridcard{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.Gridcard__img{
+    object-fit: cover;
+    transition: all .1s ease-in-out; 
+    border-radius: 10px;
+    border: 0.1px inset rgba(133, 133, 133, 0.438);
+}
+.Gridcard__img:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.05); 
+}
+@media only screen and (max-width: 600px) {
+    .Gridcard{
+        padding: 10px;
+        height: 100px;
+        margin-bottom: 60px !important;
+    }
+    .Gridcard>h3{
+        font-family: 'kOhO';
+        font-size: 12px;
+    }
+    .Gridcard__img{
+        object-fit: cover !important; 
+        height: 160px;
+        width: 100%;
+    }
+    .Gridcard__img:hover{
+        box-shadow: 0px 0px 10px black;
+        transform: scale(1); 
+    }
+  }

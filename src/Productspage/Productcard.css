@@ -1,0 +1,44 @@
+.Productcard{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.Productcard > h2{
+    font-family: 'kOhO';
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+
+.Productcard > h3{
+    font-family: 'kOhO';
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.Productcard__img{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    transition: all .1s ease-in-out; 
+}
+.Productcard__img:hover{
+    filter: drop-shadow(0px 0px 2px black) brightness(1.02) saturate(130%)  !important; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Productcard{
+        margin-bottom: 5px;
+    }
+    .Productcard__img{
+        height: 230px;
+        width: 98%;
+    }
+    .Productcard > h2{
+        font-size: 0.6rem;
+    }
+    .Productcard > h3{
+        font-size: 0.9rem;
+    }
+
+  }

@@ -1,0 +1,96 @@
+.payment{
+    background-color: rgb(241, 239, 245);
+    margin: 0px 40px;
+    height: 500px;
+}
+.payment__top{
+    font-family: 'kOhO';
+    font-size: 12px;
+    margin: 0px 220px;
+    margin-top: 60px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment__bottom{
+    margin: 0px 220px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment__bottom__left{
+    margin-top: 40px;
+    margin-left: -100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    flex-direction: column;
+}
+.payment__bottom__left>h2{
+    font-family: 'kOhO';
+    font-size: 1.2rem;
+}
+.payment__bottom__left__btn1{
+    color:rgba(92, 92, 92, 0.836) !important;
+    font-size: 12px !important;
+    margin: 10px 10px !important;
+    font-size: 12px !important;
+}
+.payment__bottom__left__btn2{
+    color:rgba(92, 92, 92, 0.836) !important;
+    margin: 10px 10px !important;
+    font-size: 12px !important;
+}
+.payment__bottom__left__btn3{
+    color:rgba(92, 92, 92, 0.836) !important;
+    margin: 10px 10px !important;
+    font-size: 12px !important;
+}
+
+.payment__bottom__left__btn__active{
+    background-color: rgb(192, 192, 192) !important;
+    color:rgb(255, 255, 255) !important;
+}
+.payment__bottom__right{
+    margin-left: 100px;
+    margin-top: -50px;
+    height: 300px;
+    width: 600px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .payment{
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        height: auto;
+    }
+    .payment__top{
+        font-family: 'kOhO';
+        font-size: 11px;
+        margin: 0px 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .payment__bottom{
+        margin-top: 30px !important;
+        display: inline;
+    }
+    .payment__bottom__left{
+        margin-top: 30px;
+        margin-left: 23px;
+        width: 350px !important;
+    }
+
+    .payment__bottom__right{
+        margin-left: -60px;
+        width: 330px !important;
+        margin-top: -60px !important;
+        margin-bottom: 70px !important;
+        height: 300px;
+        width: 600px;
+    }    
+}

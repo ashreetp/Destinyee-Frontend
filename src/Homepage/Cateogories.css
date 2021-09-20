@@ -1,0 +1,29 @@
+.Cateogories{
+    margin-top: 10px;
+}
+.Cateogories__heading{
+    text-align: center;
+    font-family: 'KoHo';
+    font-weight: 900 !important;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.Cateogories__grid{
+    display: grid;
+    margin: 20px 50px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Cateogories{
+        margin-left: -10px !important;
+        margin-bottom: 40px !important;
+    }
+    .Cateogories__grid{
+        margin: 10px 25px;
+        grid-template-columns: 50% 50%;
+    }
+    .Cateogories__heading{
+        font-size: 1rem !important;
+    }
+  }

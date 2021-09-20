@@ -1,0 +1,10 @@
+.userentrance{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 600px) {
+    .userentrance{
+        display: inline;
+        padding-top: 65px;
+    }
+}
